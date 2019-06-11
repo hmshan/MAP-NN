@@ -2,7 +2,7 @@
 
 This repository contains the code for our neural network “MAP-NN” described in the following paper:
 
-### [Competitive performance of a modularized deep neural network compared to commercial algorithms for low-dose CT image reconstruction](https://doi.org/xxxx) (Nature Machine Intelligence, June 10, 2019)
+### [Competitive performance of a modularized deep neural network compared to commercial algorithms for low-dose CT image reconstruction](https://doi.org/10.1038/s42256-019-0057-9) Nature Machine Intelligence 1, 269–276 (2019) 
 ![](network.png)
 ## Prerequisites
 The dependent packages for MAP-NN are as follows:
@@ -34,6 +34,7 @@ Once the training data are ready, you can directly change the filename in the tr
 ```
 python MAP_NN_Training.py
 ``` 
+
 ### Testing network
 
 After specifying the testing file name in the testing script ``MAP_NN_Demo.py``, please run the following command to obtain the denoised images.
@@ -41,9 +42,9 @@ After specifying the testing file name in the testing script ``MAP_NN_Demo.py``,
 ```
 python MAP_NN_Demo.py
 ``` 
-will give you the denoised images. 
 
-For example, we take a LDCT image ('L506_FD_1_1.CT.0002.0087.2015.12.22.20.19.52.894480.358591878.IMA').  The model will load this LDCT image and produce the denoised images at different denoising depths, which are then saved into the file ``test_results.pdf``.
+
+For example, we take a LDCT image ('L506_QD_1_1.CT.0004.0087.2015.12.22.20.46.00.71702.358798544.IMA').  The model will load this LDCT image and produce the denoised images at different denoising depths, which are then saved into the file ``test_results.pdf``.
 ![](test_results.png)
 
 
