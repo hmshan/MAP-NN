@@ -57,7 +57,11 @@ If you find this code or our work useful, please cite the following paper:
   title={Competitive performance of a modularized deep neural network compared to commercial algorithms for low-dose CT image reconstruction},
   author={Shan, Hongming and Padole, Atul and Homayounieh, Fatemeh and Kruger, Uwe and Khera, Ruhani Doda and Nitiwarangkul, Chayanin and Kalra, Mannudeep K and Wang, Ge},
   journal={Nature Machine Intelligence},
-  year={2019}
+  volume={1},
+  number={6},
+  pages={269--276},
+  year={2019},
+  publisher={Nature Publishing Group}
 }
 ```
 ## Acknowledgement
